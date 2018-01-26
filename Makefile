@@ -1,6 +1,6 @@
 setup:
 	go get \
-		github.com/laher/goxc \
+		github.com/Songmu/goxz/cmd/goxz \
 		github.com/tcnksm/ghr \
 		github.com/golang/lint/golint
 	go get -d -t ./...
