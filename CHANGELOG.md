@@ -1,5 +1,9 @@
 # Changelog
 
-## v0.0.1 (2018-1-26)
+## v0.0.2 (2018-02-01)
+
+* modify graphs label
+
+## v0.0.1 (2018-01-26)
 
 * Initial release
