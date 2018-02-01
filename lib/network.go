@@ -63,14 +63,14 @@ func (p *NetworkPlugin) GraphDefinition() map[string]mp.Graphs {
 			},
 		},
 		"ip.statistic": {
-			Label: labelPrefix + " IP Statistics",
+			Label: labelPrefix + " Ip Statistics",
 			Unit:  "integer",
 			Metrics: []mp.Metrics{
 				{Name: "IpExtInCsumErrors", Label: "InCsumErrors", Diff: true},
 			},
 		},
 		"tcp.backlog": {
-			Label: labelPrefix + " TCP Backlog",
+			Label: labelPrefix + " Tcp Backlog",
 			Unit:  "integer",
 			Metrics: []mp.Metrics{
 				{Name: "TcpExtTCPBacklogDrop", Label: "Drop", Diff: true},
