@@ -1,4 +1,4 @@
-# mackerel-plugin-network
+# mackerel-plugin-network [![Build Status](https://travis-ci.org/y-kuno/mackerel-plugin-network.svg?branch=master)](https://travis-ci.org/y-kuno/mackerel-plugin-network)
 
 Network plugin for mackerel.io agent. This repository releases an artifact to Github Releases, which satisfy the format for mkr plugin installer.
 
