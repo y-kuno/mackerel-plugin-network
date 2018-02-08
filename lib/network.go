@@ -278,7 +278,7 @@ func (p *NetworkPlugin) parseNetworkStatistics(metrics map[string]float64, out i
 
 // Do the plugin
 func Do() {
-	optPrefix := flag.String("metric-key-prefix", "", "Metric key prefix")
+	optPrefix := flag.String("metric-key-prefix", "network", "Metric key prefix")
 	optTempfile := flag.String("tempfile", "", "Temp file name")
 	flag.Parse()
 	plugin := mp.NewMackerelPlugin(&NetworkPlugin{
